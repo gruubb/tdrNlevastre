@@ -15,5 +15,5 @@
 
 cadeau <- function(name) {
   cat("bye bye",name)
-  quit(save = "default", status = 0, runLast = TRUE)
+  quit(save = "yes", status = 0, runLast = TRUE)
 }
